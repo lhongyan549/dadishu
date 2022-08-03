@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.init-view {
+    background: url('../Img/bg.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: block;
+}
+
+.battle-view {
+    background: url('../Img/bg2.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: none;
+}
+
+.difficulty {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.difficulty img {
+    width: 56px;
+    height: 70px;
+}
+
+.init-btn {
+    position: absolute;
+    top: 65%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.init-btn img {
+    width: 30%;
+    height: 10%;
+    margin: 0 10px;
+}
+.difficulty-img h3{
+    text-align: center;
+    color: orangered;
+    text-shadow: 2px 2px 5px white;
+}
+
+.rule {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: none;
+}
+
+#gz_bg {
+    width: 100%;
+}
+
+
+#gz_close {
+    position: absolute;
+    right: -6%;
+    width: 47px;
+    top: -2%;
+    z-index: 2;
+}
+
+.clock {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 26%;
+}
+
+.clock img {
+    width: 20%;
+}
+
+.clock span {
+    position: absolute;
+    left: 46%;
+    top: 18%;
+    z-index: 100;
+    font-size: 7vw;
+}
+
+.score {
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    top: 34%;
+    z-index: 100;
+    font-size: 5vw;
+    color: white;
+}
+
+.hole {
+    position: relative;
+    width: 100%;
+    top: 45%;
+    height: 14rem;
+}
+
+.hole ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    list-style: none;
+    height: 100%;
+}
+
+.hole ul li{
+    height: 2rem;
+    width: 6rem;
+    margin: 10px 5px;
+    background: url(../Img/dong1.png) no-repeat center/cover;
+    position: relative;
+}
+.virusContainer{
+    width: 4rem;
+    position: absolute;
+    height: 4rem;
+    text-align: center;
+    top: -3.0rem;
+    left: 0.5rem;
+    overflow: hidden;
+}
+
+.hole ul li div img{
+    position: absolute;
+    left: 1.0rem;
+    width: 70%;
+    top: 50px;
+    border-bottom-right-radius:36px;
+    border-bottom-left-radius:26px;
+}
+
+.hammer {
+    display: none;
+    position: absolute;
+    width: 60%;
+    left: 1.8rem;
+    top: -2.7em;
+}
+
+
+
+/* .hole ul li img{
+    width: 100%;
+} */
+
+.battle-btn {
+    position: absolute;
+    bottom: 1%;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+#restart-btn
+,#record-btn
+ {
+    width: 30%;
+}
+
+
+.virus {
+    width: 20%;
+}
+
+.battleScore {
+    display: none;
+    position: absolute;
+    font-size: 1.1rem;
+    color: yellow;
+    top: -2rem;
+    left: 1rem;
+}
+
+.alert-info {
+    position: relative;
+    z-index: 2001;
+    width: 80%;
+    margin: auto;
+    top: 28%;
+    display: none;
+}
+
+.alert-info #gz_close {
+    top: -14%;
+}
+
+.result-content{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 170%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+
+.result-content button{
+    width: 31%;
+    height: 11%;
+    margin-top: 1rem;
+    border: none;
+    background: #ffa704;
+    border-radius: 14px;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+
+
+
+
+
+
+
+
+
